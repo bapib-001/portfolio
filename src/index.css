@@ -1,26 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-@theme { 
-  /* Main brand color */ 
-  --color-brand: #6366f1;
-  --color-brand-light: #818cf8; 
-  --color-brand-dark: #4f46e5;
-  
-  /* Page colors */ 
-  --color-page-light: #fafafa; 
-  --color-page-dark: #0a0a0a;
-  
-  /* Text colors */ 
-  --color-text-light: #171717; 
-  --color-text-dark: #f5f5f5;
+@custom-variant dark (&:where(.dark, .dark *));
 
-  /* Muted text */ 
-  --color-muted-light: #737373; 
-  --color-muted-dark: #a3a3a3; 
+
+@theme {
+  --color-brand: #6366f1;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
 
 html {
   scroll-behavior: smooth;
@@ -29,16 +16,35 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  /* background: #ffffff; */
-  /* color: #191920; */
-  background: var(--color-page-light);
-  color: var(--color-text-light);
+  overflow-x: hidden;
+  background: #ffffff;
   font-family: "Montserrat", sans-serif;
-
-  transition: background-color 300ms ease, color 300ms ease;
 }
 
 .dark body {
-  background: var(--color-page-dark);
-  color: var(--color-text-dark);
+  background: #080a12;
+}
+
+
+section {
+  scroll-margin-top: 90px;
+}
+
+
+::selection {
+  background: rgba(99, 102, 241, 0.22);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
