@@ -11,8 +11,8 @@ const NAV_LINKS = [
 ];
 
 const SOCIAL_LINKS = [
-  { label: "GitHub", icon: FiGithub, href: "https://github.com" },
-  { label: "LinkedIn", icon: FiLinkedin, href: "https://linkedin.com" },
+  { label: "GitHub", icon: FiGithub, href: "https://github.com/bapib-001" },
+  { label: "LinkedIn", icon: FiLinkedin, href: "https://www.linkedin.com/in/bapi-barman-3b449b248/" },
   { label: "Twitter", icon: FiTwitter, href: "https://twitter.com" },
 ];
 

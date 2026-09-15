@@ -57,7 +57,7 @@ const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:your@email.com"
+                href="mailto:bapibarman.dev@gmail.com"
                 className="group flex items-start gap-4"
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-white/40 text-brand backdrop-blur-sm transition-all duration-300 group-hover:border-brand/40 dark:border-white/10 dark:bg-white/3">
@@ -70,7 +70,7 @@ const Contact = () => {
                   </p>
 
                   <p className="mt-1 text-sm text-slate-700 transition-colors group-hover:text-brand dark:text-slate-300">
-                    your@email.com
+                    bapibarman.dev@gmail.com
                   </p>
                 </div>
               </a>
@@ -99,7 +99,8 @@ const Contact = () => {
 
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://github.com/bapib-001"
+                  target="_blank"
                   aria-label="GitHub"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white/40 text-slate-600 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-brand/40 hover:text-brand dark:border-white/10 dark:bg-white/3 dark:text-slate-400"
                 >
@@ -107,7 +108,8 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/bapi-barman-3b449b248/"
+                  target="_blank"
                   aria-label="LinkedIn"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white/40 text-slate-600 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-brand/40 hover:text-brand dark:border-white/10 dark:bg-white/3 dark:text-slate-400"
                 >
