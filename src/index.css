@@ -8,6 +8,9 @@
   --color-brand: #6366f1;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
 html {
   scroll-behavior: smooth;
@@ -19,6 +22,9 @@ body {
   overflow-x: hidden;
   background: #ffffff;
   font-family: "Montserrat", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .dark body {

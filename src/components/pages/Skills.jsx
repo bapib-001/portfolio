@@ -135,7 +135,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative isolate min-h-screen overflow-hidden px-5 py-24 text-slate-900 transition-colors duration-500 sm:px-8 md:py-32 lg:px-10 dark:text-white"
+      className="relative isolate min-h-screen overflow-hidden px-5 py-10 text-slate-900 transition-colors duration-500 sm:px-8 md:py-14 lg:px-10 dark:text-white"
     >
 
       <div className="relative z-10 mx-auto max-w-7xl">

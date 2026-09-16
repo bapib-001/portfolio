@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden px-5 py-24 sm:px-8 lg:px-12"
+      className="relative overflow-hidden px-5 py-12 sm:px-8 lg:px-12"
     >
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">

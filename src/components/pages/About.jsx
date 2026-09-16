@@ -35,7 +35,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative overflow-hidden px-5 py-24 sm:px-8 lg:px-12"
+      className="relative overflow-hidden px-5 py-16 sm:px-8 lg:px-12"
     >
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 max-w-2xl">

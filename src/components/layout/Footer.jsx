@@ -18,7 +18,7 @@ const SOCIAL_LINKS = [
 
 const Footer = () => {
   return (
-    <footer className="relative w-full border-t border-gray-200/60 dark:border-gray-800/60  text-gray-800 dark:text-gray-200 transition-colors duration-300">
+    <footer className="relative w-full pt-8 border-t border-gray-200/60 dark:border-gray-800/60  text-gray-800 dark:text-gray-200 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -translate-y-12">
         <div className="relative overflow-hidden rounded-3xl bg-white/80 dark:bg-[#090915] backdrop-blur-xl border border-gray-200/80 dark:border-gray-700/60 p-8 sm:p-10 shadow-xl shadow-brand/5 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="max-w-xl">
